@@ -1,0 +1,115 @@
+/**
+ * Created by pc-david on 2016/9/5.
+ */
+.el-row {
+  margin-bottom: 20px;
+}
+.el-row:last-child {
+  margin-bottom: 0;
+}
+.el-col {
+  border-radius: 4px;
+}
+/* 下面是页尾的Less*/
+.footer_dowm {
+  width: 100%;
+  background-color: #EFEFEF;
+  color: #333;
+}
+.footer_dowm .footer_row {
+  padding: 50px 0 10px;
+}
+.footer_dowm .footer_row .footer_item {
+  text-align: center;
+  width: 100%;
+}
+.footer_dowm .footer_row .footer_item .footer_logo {
+  padding-top: 7px;
+}
+.footer_dowm .footer_row .footer_item .footer_img {
+  margin: 0 auto;
+}
+.footer_dowm .footer_row .footer_item .footer_img .footer_text {
+  display: inline-block;
+  margin: 0 5%;
+}
+.footer_dowm .footer_row .footer_split_line {
+  border-left: 1px solid #ddd;
+  height: 90px;
+  width: 1px;
+  margin-top: 38px;
+  float: left;
+}
+.footer_dowm .footer_row .footer_third {
+  padding-left: 30%;
+}
+.footer_dowm .footer_row .footer_third .footer_unit {
+  margin-top: 15px;
+}
+.footer_dowm .footer_row .footer_third .footer_tel {
+  margin-top: 15px;
+  width: 300px;
+}
+.footer_dowm .footer_row .footer_third .footer_tel .footer_input {
+  padding: 3px 10px;
+  box-sizing: border-box;
+  width: 210px;
+  height: 36px;
+  color: #1f2d3d;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ff9959;
+  border-radius: 4px 0 0 4px;
+}
+.footer_dowm .footer_row .footer_third .footer_tel .footer_btn {
+  line-height: 13px;
+  white-space: nowrap;
+  cursor: pointer;
+  text-align: center;
+  margin: 0;
+  padding: 9px 15px 11px;
+  font-size: 14px;
+  border: 1px solid #ff9959;
+  border-radius: 0 4px 4px 0;
+  background-color: #ff9959;
+  color: #fff;
+}
+.footer_dowm .footer_row .footer_third .footer_tel .footer_msg {
+  font-size: 12px;
+  line-height: 1;
+  padding-top: 6px;
+  padding-left: 2px;
+}
+.footer_dowm .footer_row .footer_third .footer_tel .footer_error {
+  color: #ff4949;
+}
+.footer_dowm .footer_row .footer_third .footer_tel .footer_success {
+  color: #13ce66;
+}
+.footer_copyright {
+  color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+}
+.footer_copyright .friendly_link {
+  margin: 20px 0;
+  text-align: center;
+}
+.footer_copyright .friendly_link a {
+  color: rgba(0, 0, 0, 0.4);
+  padding-right: 5px;
+  font-size: 12px;
+}
+.footer_copyright .friendly_link a .footer_a:after {
+  content: '  |';
+}
+/*
+.el-input-group__append{
+  color: #fff !important;
+  background-color: @color-orange !important;
+  border: 1px solid @color-orange !important;
+}
+.el-input__inner {
+  border-color: @color-orange!important;
+}*/

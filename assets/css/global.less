@@ -1,0 +1,105 @@
+@import url("http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css");
+@import url("http://at.alicdn.com/t/font_86nxfcksm9h5xw29.css");
+
+/** 重置基本元素 **/
+
+html, body, * {
+  font-family: "Microsoft YaHei";
+  font-size: 14px}
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5,
+h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img { border:none;}
+img{display: block;}
+address, caption, cite, code, dfn, th, var { font-style:normal;
+  font-weight:normal; }
+ul, ol { list-style:none; }
+input { padding-top:0; padding-bottom:0;}
+input::-moz-focus-inner { border:none; padding:0; }
+select, input { vertical-align:middle; }
+select, input{ font-size:12px; margin:0; }
+input[type="text"], input[type="password"], textarea {
+  outline-style:none; -webkit-appearance:none;}
+input[type="text"]{
+  color: rgba(0,0,0,0.75);
+  
+}
+table { border-collapse:collapse; }
+
+a:link,
+a:hover,
+a:active,
+a:visited
+{
+  text-decoration: none;
+}
+a:hover{
+  color: @color-orange;
+}
+a { color:#666 ; text-decoration:none;}
+em,i,b,strong{font-style: normal;}
+/** 重置表单元素 **/
+legend { color: #000; } /* for ie6 */
+fieldset, img { border: 0; } /* img 搭车：让链接里的 img 无边框 */
+button, input, select, textarea {background:transparent; font-size: 100%; outline: 0;} /* 使得表单元素在 ie 下能继承字体大小 */
+/* 注：optgroup 无法扶正 */
+table{border-collapse:collapse;border-spacing:0;}
+td,th{vertical-align:middle;}/** 重置表格元素 **/
+/* 重置 HTML5 元素 */
+article, aside, details, figcaption, figure, footer,header, menu, nav, section,summary, time, mark, audio, video {display: block; margin: 0; padding: 0;}
+.clearfix {*zoom: 1;}
+.clearfix:before,.clearfix:after {display: table; content: ""; height:0; clear:both; visibility: hidden;}
+
+
+/*-----------------------------------全局设置-----------------------------------------------*/
+@color-orange: #ff9959;
+@color-head: #333;
+@color-body: #aaa;
+@color-body-bg: #F3F3F3;
+@border-body-head-bg: #F7F7F7;
+@color-shadow: #bbb;
+@color-text-gray: #999;
+
+
+
+
+
+
+/*-----------------------------------通用样式-----------------------------------------------*/
+/*盒模型*/
+.f_ib {display: inline-block;*display: inline;*zoom: 1;}
+.f_db{display: block;}
+.hide{display: none;}
+/*浮动*/
+.f_fl {float: left; display: inline;}
+.f_fr {float: right; display: inline;}
+.f_cl {clear: both;height: 0;line-height: 0;font-size: 0;}
+.space_10{ height: 10px;}
+.space_20{ height: 20px;}
+.space_30{ height: 30px;}
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+  color: #fff !important;
+}
+input:focus {
+  background-position: 0 0;
+}
+button {
+  cursor:pointer;
+}
+
+
+.open > .dropdown-toggle.btn-cy-default {
+  color: #fff;
+  background-color: @color-orange;
+  border-color: @color-orange;
+}
+.open > .dropdown-toggle.btn-cy-default {
+  background-image: none;
+}
+
+/** 模态框title */
+.modal-header{
+  color: @color-orange;
+  border-radius: 5px 5px 0 0;
+  background: #e0e0e0;
+}
+

@@ -1,0 +1,117 @@
+.head_logo {
+  margin-top: 10px;
+  cursor: pointer;
+}
+.head_logo .head_img {
+  float: left;
+}
+.head_logo .head_content {
+  float: left;
+  margin: 0 10px 0;
+  line-height: 22px;
+}
+.reg {
+  font-size: 16px;
+  padding-top: 150px;
+  height: 100vh;
+  background: #F3F3F3;
+}
+.reg_left {
+  text-align: center;
+  width: 100%;
+}
+.reg_left .left_head {
+  color: rgba(0, 0, 0, 0.7);
+  margin: 10px 0;
+  line-height: 30px;
+  font-size: 22px;
+}
+.reg_left .left_head .left_sub {
+  margin-left: 25px;
+  font-size: 16px;
+}
+.reg_left .left_head .left_img {
+  margin: 0 auto;
+}
+.reg_main {
+  margin-top: 40px;
+  width: 500px;
+  height: 270px;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+.reg_main .reg_head {
+  position: relative;
+  margin: 5px auto;
+  width: 300px;
+  height: 30px;
+}
+.reg_main .reg_head .reg_head_text {
+  margin-left: 5px;
+  text-align: left;
+  font-size: 16px;
+  color: #150000;
+}
+.reg_main .reg_head .reg_head_text .reg_honbao {
+  font-size: 10px;
+  color: #ff9959;
+}
+.reg_main .reg_head .reg_login {
+  position: absolute;
+  top: 4px;
+  right: 0;
+  text-align: right;
+  font-size: 10px;
+  color: #666 ;
+}
+.reg_main .reg_head .reg_login a {
+  font-size: 10px;
+  color: #ff9959;
+}
+.reg_main .reg_content {
+  margin: 10px auto;
+  width: 300px;
+  height: 300px;
+}
+.reg_main .reg_content span a {
+  color: #bfbcbc !important;
+}
+.reg_main .reg_content span a:link {
+  color: #bfbcbc !important;
+}
+.reg_main .reg_content span a:hover {
+  color: #ff9959 !important;
+  text-decoration: underline !important;
+}
+.reg_main .reg_content .reg_input {
+  width: 300px;
+  margin: 0 5px;
+}
+.reg_main .reg_content .reg_btn {
+  width: 100%;
+}
+.reg_main .reg_content .reg_code {
+  float: right;
+  position: absolute;
+  top: 3px;
+  right: 4px;
+}
+.reg_main .reg_content .reg_code .reg_code_btn {
+  height: 24px;
+  font-size: 1.0em;
+}
+.login_footer {
+  width: 100%;
+  position: absolute ;
+  bottom: 0;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.3);
+}
+.login_footer .footer_text {
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.el-button--info {
+  color: #ff9959 !important;
+  background-color: #fff !important;
+  border-color: #ff9959 !important;
+}
